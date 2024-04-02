@@ -20,7 +20,7 @@ $postfields = array(
     'disable_notification' => "True",
     'parse_mode' => "HTML",
     // 'photo' => 'https://image.flaticon.com/teams/new/1-freepik.jpg',
-    'text' => "<b>$text</b>",
+    'text' => "<b>$from</b>/n><pre>$to<pre>/n<i>$text</i>",
 );
 
 if (!$curld = curl_init()) {
