@@ -10,7 +10,7 @@ $id = $_REQUEST['id'];
 	$to = $_REQUEST['to'];
 	$text = $_REQUEST['text'];
 
-	if ($token == "[your_token]") {
+	if ($token == "k7fDXHH9aSGSSS03WNqy6A4xGCrfxCdl") {
 		
   
 $url = https://api.telegram.org/bot7175874640:AAHgb4IxqxSoZ74_Bb8TbwDNs2ypndrmd5U/Sendmessage";
